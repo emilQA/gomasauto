@@ -1,0 +1,66 @@
+.about {
+    &__image {
+        img {
+            width: 970px;
+            height: auto;
+
+            @media screen and (max-width: 1024px) {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        text-align: center;
+    }
+
+    .container {
+        padding-left: 0 !important;
+    }
+
+    &-container {
+        @media screen and (min-width: 1024px) {
+            width: 970px !important;
+            padding: 0 !important;
+        }
+    }
+
+    &__content {
+        margin-top: 7.5rem;
+
+        h1 {
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 2rem;
+        }
+
+        p {
+            font-family: 'Oswald';
+            font-style: normal;
+            display: inline-block;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 183.77%;
+            /* or 28px */
+            letter-spacing: 0.06em;
+
+            @media screen and (min-width: 1024px) {
+                width: 53.75rem;
+            }
+
+            color: #000000;
+        }
+    }
+
+    &__date {
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        color: #636363;
+        text-align: right;
+        margin-top: 1.2rem;
+        margin-bottom: 0;
+    }
+
+
+}

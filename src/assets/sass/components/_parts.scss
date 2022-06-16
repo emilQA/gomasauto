@@ -1,0 +1,311 @@
+.parts {
+    margin-top: 7.8125rem;
+
+    &-big {
+        height: 458px;
+        position: relative;
+        margin-top: 5.9375rem
+    }
+
+    &-square {
+        margin-bottom: 1.875rem;
+        overflow: hidden;
+        position: relative;
+
+        &__big {}
+
+        &-inner {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 4.5rem;
+
+            &__mod {
+                justify-content: flex-start;
+            }
+
+            &__bigCol {
+
+                padding-bottom: 5.875rem;
+                justify-content: flex-start;
+            }
+
+            &-bodyText {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding-top: 2.5rem;
+                padding-left: 5.1875rem;
+
+                &__mod2 {
+                    padding-left: 0;
+                    padding-top: 4.1875rem;
+                }
+
+                &__bigCol {
+                    padding-left: 1.375rem;
+                    padding-top: 5.4375rem;
+                }
+
+                &-1 {
+                    font-family: 'Oswald';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 64px;
+                    line-height: 95px;
+                    color: rgba(255, 255, 255, 0.2);
+                    height: 70px;
+
+                    &__bigCol {
+                        font-weight: 700;
+                        font-size: 175px;
+                        line-height: 259px;
+                        display: flex;
+                        align-items: center;
+                        color: rgba(255, 255, 255, 0.2);
+
+                    }
+
+                    &__mod,
+                    &__mod2 {
+                        font-family: 'Oswald';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 96px;
+                        line-height: 183.77%;
+                        display: flex;
+                        align-items: center;
+                        letter-spacing: 0.06em;
+                        color: #FFFFFF;
+                    }
+
+                    &__mod {
+                        margin-bottom: 2.8125rem
+                    }
+
+                }
+
+                &-sale,
+                &-date {
+                    font-family: 'Oswald';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 183.77%;
+                    letter-spacing: 0.06em;
+                    color: #FFFFFF;
+                    padding-left: .3125rem;
+                }
+
+                &-sale {
+                    margin-bottom: .9375rem
+                }
+
+                &-date {
+                    margin-top: 1.25rem
+                }
+
+            }
+
+            &-sides {
+                z-index: 1;
+
+            }
+
+            &-left {
+                position: absolute;
+                top: 55px;
+                left: 61px;
+
+                &__bigCol {
+                    left: 2.875rem;
+                }
+
+                &__bigCol2 {
+                    left: 5.5625rem;
+                }
+
+                &-condition {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #ffffff;
+
+                    &__mod {
+                        color: #000000;
+                    }
+                }
+
+                &-partName {
+                    font-family: 'Oswald';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 44px;
+                    color: #ffffff;
+
+                    &__mod {
+                        font-family: 'Oswald';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 183.77%;
+                        letter-spacing: 0.06em;
+                        color: #FFFFFF;
+                        padding-left: .3125rem;
+                    }
+
+                    &__mod2 {
+                        color: #000000;
+                    }
+
+                }
+
+                &-class {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #ffffff;
+
+                    &__mod {
+                        color: #000000;
+                    }
+                }
+
+                &-button {
+                    margin-top: 1.5rem;
+                    padding: .5rem .9375rem;
+                    font-family: 'Oswald';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 15px;
+                    line-height: 22px;
+                    border: none;
+                    color: #ffffff;
+
+                    &__mod {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #EA2A35;
+                    }
+
+                    &__yellow {
+                        color: #F3BE2C;
+                    }
+
+                    &__red {
+                        color: #EA2A35;
+                    }
+
+                    &__green {
+                        color: #2BC46C;
+                    }
+
+                    &__blue {
+                        color: #1783F5;
+                    }
+                }
+
+                &-sale {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 60px;
+                    // line-height: 183.77%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.06em;
+                    color: #FFFFFF;
+                    margin-bottom: 1.875rem;
+                }
+
+                &-about {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 26px;
+                    letter-spacing: 0.06em;
+                    color: #FFFFFF;
+                }
+
+                &__mod {
+                    position: relative;
+                }
+
+                &__mod3 {
+                    top: 5.9375rem;
+                }
+            }
+
+            &-right {
+                position: relative;
+
+                & img {
+                    position: absolute;
+                    top: -41px;
+                    right: -78px;
+                }
+
+                &__green {
+                    & img {
+                        top: 1px;
+                        right: -123px;
+                    }
+                }
+
+                &__blue {
+                    & img {
+                        top: 72px;
+                        right: -46px;
+                    }
+                }
+                &__yellow {
+                    & img {
+                        top: 52px;
+                        right: -13px;
+                    }
+                }
+
+                &__mod {
+                    top: -27%;
+                    left: 26%;
+                }
+
+                &__mod2 {
+
+                    & img {
+                        top: -125px;
+                        right: -389px;
+
+                    }
+                }
+
+                &__mod3 {
+
+                    & img {
+                        top: -140px;
+                        right: -426px;
+                    }
+                }
+
+                &__bigCol {
+                    position: absolute;
+                    top: 21px;
+                    right: 37px;
+                }
+
+                &__bigCol2 {
+                    position: absolute;
+                    top: 44px;
+                    right: 48px;
+                }
+
+            }
+        }
+    }
+}

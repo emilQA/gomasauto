@@ -1,0 +1,33 @@
+.features {
+    margin: 7.5rem 0;
+    &-block{
+        display: flex;
+    }
+    &-text {
+        display: inline-block;
+        padding-left: .9375rem;
+        &-1 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 136.4%;
+            letter-spacing: 0.05em;
+            color: #595757;
+        }
+
+        &-2 {
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 136.4%;
+            letter-spacing: 0.05em;
+        }
+    }
+    &-img{
+        &__mod{
+            height: 2.9375rem;
+        }
+    }
+}

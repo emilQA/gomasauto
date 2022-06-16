@@ -1,0 +1,36 @@
+.pagination {
+  display: inline-block;
+  &-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    font-family: "Oswald", sans-serif;
+    color: red;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #EA2A35;
+    margin: 0 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    img {
+      height: 13.4px;
+      width: 10.5px;
+    }
+    &:hover {
+      background: #fff;
+    }
+  }
+  a.current {
+    background: #EA2A35;
+    color: white;
+    border: 1px solid #EA2A35;
+  }
+  a:hover:not(.current) {
+    background-color: #ddd;
+  }
+}

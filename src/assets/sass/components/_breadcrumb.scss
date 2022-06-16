@@ -1,0 +1,16 @@
+.breadcrumb{
+    margin-bottom: 4rem !important;
+    margin-top: 4rem;
+}
+.breadcrumb-about{
+    margin-bottom: 3rem !important;
+}
+.breadcrumb-item.active a{
+    padding-left: 1rem !important;
+}
+.breadcrumb-item a{
+    color: #828282;
+    text-decoration: none;
+    font-size: 0.86rem;
+    padding-right: 1rem;
+}

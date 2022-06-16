@@ -1,0 +1,15 @@
+.line {
+
+    background: #C4C4C4;
+    width: 6.6875rem;
+    height: 0.4rem;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 5.25rem;
+        height: 0.4rem;
+        margin: 0, 0.9375rem, 0, 0;
+        background-color: #303030;
+    }
+}
