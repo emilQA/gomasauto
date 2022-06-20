@@ -123,7 +123,7 @@ body {
 }
 @media screen and (min-width: 1440px) {
   .nav {
-    margin-left: 13.5rem;
+    margin-left: 4.5rem;
   }
 }
 @media screen and (max-width: 993px) {
@@ -1010,6 +1010,22 @@ body {
   margin-top: 100px;
 }
 
+@media (max-width: 1440px) and (min-width: 1024px) {
+  .home-image-inner {
+    width: 36rem;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .home-image-inner {
+    width: 24rem;
+    top: 10px;
+    left: -74px;
+  }
+
+  .home-wrapper__right {
+    padding-left: 5rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .mt_line {
     margin-top: 20px;
@@ -1141,7 +1157,7 @@ body {
     right: -81px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 321px) {
   .home-image img {
     left: 9px;
     width: 18rem;
